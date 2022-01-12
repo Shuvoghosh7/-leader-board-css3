@@ -85,7 +85,65 @@ hr{
 /*.........................
        coureses style 
  ..........................*/
+ .coureses{
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     grid-column-gap: 24px;
+ }
+ .course{
+    Width: 252.42px;
+    Height: 269.79px;
+ }
  .course .course-banner img{
     width: 177px;
     height: 117px;
  }
+ .course-datail .section-title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20.0336px;
+    line-height: 23px;
+    color: #1E1E1E;
+    Width: 194px;
+    Height: 23px;
+    
+ }
+ .course-author{
+    padding-top: 7.17px;
+    Width: 89.48px;
+    Height: 17.36px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14.6913px;
+    line-height: 20px;
+    color: #ED6B4F;
+ }
+ .course-info{
+     display: flex; 
+     align-items: center;
+     justify-content: space-between;
+    
+ }
+ .fa-star{
+     font-size: 12px;
+ }
+ .fa-star.filled{
+     color: #FFC014;
+ }
+ .fa-star.emty{
+    color: #AEAEAE;
+}
+.course-duration{
+    color: #FF4A60;
+    border-radius: 15px;
+    background-color: lightpink;
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 14.6913px;
+    line-height: 20px;
+    Width: 70px;
+    height: 20.03px;
+    padding: 3px 7px;
+}
