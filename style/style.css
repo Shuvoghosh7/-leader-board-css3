@@ -18,10 +18,67 @@ main{
     border-radius: 5px;
     
 }
-hr{
-    border: 1px solid #D1D1D1;
-    margin-bottom: 27px;
-
+.nav-style {
+    
+    width: 1440px;
+    height: 94px;
+    left: 0px;
+    top: 0px;
+    background-color:#562EFF;
+}
+.nav-ankor a{
+    position: absolute;
+    width: 54px;
+    height: 36px;
+    left: 260px;
+    top: 33px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 24px;
+}
+.nav-ankor img{
+    position: absolute;
+    width: 40.42px;
+    height: 51px;
+    left: 210px;
+    top: 26px;
+}
+#ankor1{
+    position: absolute;
+    width: 48px;
+    height: 24px;
+    left: 847px;
+    top: 35px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 16px;
+}
+#ankor2{
+    position: absolute;
+    width: 48px;
+    height: 24px;
+    left: 931px;
+    top: 35px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 16px;
+}
+#ankoe3{
+    position: absolute;
+    width: 49px;
+    height: 24px;
+    left: 1015px;
+    top: 35px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 16px;
+}
+.nav-ankor2 img{
+    position: absolute;
+    width: 51px;
+    height: 51px;
+    left: 1090px;
+    top: 23px;
 }
 /* top players style*/
 .top-players{
@@ -107,6 +164,7 @@ hr{
     color: #1E1E1E;
     Width: 194px;
     Height: 23px;
+   
     
  }
  .course-author{
@@ -165,6 +223,14 @@ hr{
            flex-direction: column;
            align-items: center;
        }
+      .nav-style{
+          position: relative;
+      }
+      .nav-ankor a{
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
        
 }
 /* .....................
