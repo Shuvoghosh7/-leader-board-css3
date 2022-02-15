@@ -245,3 +245,7 @@ main{
         grid-template-columns: repeat(2,1fr);
     }  
 }
+/*  input field */
+#input-type{
+    width: 30px;
+}
